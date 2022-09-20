@@ -1,3 +1,5 @@
+# fees program
+
 x=input("Enter the student type\n")
 if x=="MSDS":
     tf=float(input("Enter tuition fee\n"))
@@ -21,3 +23,18 @@ elif x=="MGSH":
     print(f"The fees to be paid by the student is Rs.{d}0")
 else:
     print("Not defined")
+
+
+# Age detect progra
+
+
+by=int(input("Enter Year of Birth\n"))
+cy=int(input("Enter Current year\n"))
+if cy>by: 
+    a=(cy)-(by)
+    print(f"Your age is {a}")
+elif cy<by:
+    b=(cy+100)-by
+    print(f"Your age is {b}")
+else:
+    print("Not born yet")
